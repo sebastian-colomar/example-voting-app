@@ -11,6 +11,7 @@ spec:
     metadata:
       labels:
         app: db
+        author: Sebastian
     spec:
       containers:
       - image: postgres:9.4
