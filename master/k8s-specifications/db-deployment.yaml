@@ -12,6 +12,7 @@ spec:
       labels:
         app: db
         author: Sebastian
+        env: dev
     spec:
       containers:
       - image: postgres:9.4
